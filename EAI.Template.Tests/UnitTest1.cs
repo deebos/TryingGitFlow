@@ -30,7 +30,7 @@ namespace EAI.Template.Tests
         public void GetAll_WhenUsernameIsNull_ShouldThrowArgumentNullException()
         {
             List<ApplicationsDTO> applications;
-
+             
             applications = _applicationService.GetAll();
 
             Assert.Equal(4, applications.Count);
