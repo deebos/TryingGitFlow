@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAI.Template.API", "EAI.Template.API\EAI.Template.API.csproj", "{20BB9068-F54E-4206-B50D-C52C0D78F1B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAI.Template.Data", "EAI.Template.Data\EAI.Template.Data.csproj", "{AC8CB860-7FF0-48C6-8154-A9FE657D02FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAI.Template.API.Model", "EAI.Template.API.Model\EAI.Template.API.Model.csproj", "{CF4CFC2C-6E99-479E-A09E-EF041248AFD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAI.Template.Domain", "EAI.Template.Domain\EAI.Template.Domain.csproj", "{2BFE658C-ABFE-49C1-ACD4-41551213C8CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAI.Template.Core", "EAI.Template.Core\EAI.Template.Core.csproj", "{43F67FE2-82A7-47FA-9752-E4CBB6FD9AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAI.Template.Tests", "EAI.Template.Tests\EAI.Template.Tests.csproj", "{C4426047-BC20-4BAD-B68F-5E7F037B814E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20BB9068-F54E-4206-B50D-C52C0D78F1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BB9068-F54E-4206-B50D-C52C0D78F1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BB9068-F54E-4206-B50D-C52C0D78F1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BB9068-F54E-4206-B50D-C52C0D78F1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8CB860-7FF0-48C6-8154-A9FE657D02FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8CB860-7FF0-48C6-8154-A9FE657D02FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8CB860-7FF0-48C6-8154-A9FE657D02FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8CB860-7FF0-48C6-8154-A9FE657D02FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4CFC2C-6E99-479E-A09E-EF041248AFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4CFC2C-6E99-479E-A09E-EF041248AFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4CFC2C-6E99-479E-A09E-EF041248AFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4CFC2C-6E99-479E-A09E-EF041248AFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFE658C-ABFE-49C1-ACD4-41551213C8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFE658C-ABFE-49C1-ACD4-41551213C8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFE658C-ABFE-49C1-ACD4-41551213C8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFE658C-ABFE-49C1-ACD4-41551213C8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F67FE2-82A7-47FA-9752-E4CBB6FD9AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F67FE2-82A7-47FA-9752-E4CBB6FD9AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F67FE2-82A7-47FA-9752-E4CBB6FD9AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F67FE2-82A7-47FA-9752-E4CBB6FD9AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4426047-BC20-4BAD-B68F-5E7F037B814E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4426047-BC20-4BAD-B68F-5E7F037B814E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4426047-BC20-4BAD-B68F-5E7F037B814E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4426047-BC20-4BAD-B68F-5E7F037B814E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35097626-9C45-4410-B492-470DB1673E72}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.thiqah.sa:44344/tfs/integrationcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EAI.Template.API.Model\\EAI.Template.API.Model.csproj
+		SccProjectName1 = EAI.Template.API.Model
+		SccLocalPath1 = EAI.Template.API.Model
+		SccProjectUniqueName2 = EAI.Template.API\\EAI.Template.API.csproj
+		SccProjectName2 = EAI.Template.API
+		SccLocalPath2 = EAI.Template.API
+		SccProjectUniqueName3 = EAI.Template.Core\\EAI.Template.Core.csproj
+		SccProjectName3 = EAI.Template.Core
+		SccLocalPath3 = EAI.Template.Core
+		SccProjectUniqueName4 = EAI.Template.Data\\EAI.Template.Data.csproj
+		SccProjectName4 = EAI.Template.Data
+		SccLocalPath4 = EAI.Template.Data
+		SccProjectUniqueName5 = EAI.Template.Domain\\EAI.Template.Domain.csproj
+		SccProjectName5 = EAI.Template.Domain
+		SccLocalPath5 = EAI.Template.Domain
+		SccProjectUniqueName6 = EAI.Template.Tests\\EAI.Template.Tests.csproj
+		SccProjectName6 = EAI.Template.Tests
+		SccLocalPath6 = EAI.Template.Tests
+	EndGlobalSection
+EndGlobal

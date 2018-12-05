@@ -1,0 +1,9 @@
+C:\Users\akorani\Source\Workspaces\Workspace\IntegrationCommon\EAITemplates\CompletedTemplate\EAI.Template\EAI.Template.Core\bin\Debug\netcoreapp2.1\EAI.Template.Core.deps.json
+C:\Users\akorani\Source\Workspaces\Workspace\IntegrationCommon\EAITemplates\CompletedTemplate\EAI.Template\EAI.Template.Core\bin\Debug\netcoreapp2.1\EAI.Template.Core.dll
+C:\Users\akorani\Source\Workspaces\Workspace\IntegrationCommon\EAITemplates\CompletedTemplate\EAI.Template\EAI.Template.Core\bin\Debug\netcoreapp2.1\EAI.Template.Core.pdb
+C:\Users\akorani\Source\Workspaces\Workspace\IntegrationCommon\EAITemplates\CompletedTemplate\EAI.Template\EAI.Template.Core\obj\Debug\netcoreapp2.1\EAI.Template.Core.csprojAssemblyReference.cache
+C:\Users\akorani\Source\Workspaces\Workspace\IntegrationCommon\EAITemplates\CompletedTemplate\EAI.Template\EAI.Template.Core\obj\Debug\netcoreapp2.1\EAI.Template.Core.csproj.CoreCompileInputs.cache
+C:\Users\akorani\Source\Workspaces\Workspace\IntegrationCommon\EAITemplates\CompletedTemplate\EAI.Template\EAI.Template.Core\obj\Debug\netcoreapp2.1\EAI.Template.Core.AssemblyInfoInputs.cache
+C:\Users\akorani\Source\Workspaces\Workspace\IntegrationCommon\EAITemplates\CompletedTemplate\EAI.Template\EAI.Template.Core\obj\Debug\netcoreapp2.1\EAI.Template.Core.AssemblyInfo.cs
+C:\Users\akorani\Source\Workspaces\Workspace\IntegrationCommon\EAITemplates\CompletedTemplate\EAI.Template\EAI.Template.Core\obj\Debug\netcoreapp2.1\EAI.Template.Core.dll
+C:\Users\akorani\Source\Workspaces\Workspace\IntegrationCommon\EAITemplates\CompletedTemplate\EAI.Template\EAI.Template.Core\obj\Debug\netcoreapp2.1\EAI.Template.Core.pdb
