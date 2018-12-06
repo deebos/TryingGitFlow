@@ -72,5 +72,10 @@ namespace EAI.Template.Tests
         {
             //third user code
         }
+        [Fact]
+        public void ThirdUser_HotFix_ToRepo()
+        {
+            //third user Hot fix
+        }
     }
 }
