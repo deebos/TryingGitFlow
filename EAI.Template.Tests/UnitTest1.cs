@@ -49,5 +49,11 @@ namespace EAI.Template.Tests
             var ex = Assert.Throws<ArgumentNullException>(() => _sut.Login(username, password));
             Assert.Equal("userName", ex.ParamName);
         }
+
+        [Fact]
+        public void GetAll_TestFromBranchTwo_ShouldResultToMergeConflict()
+        {
+            //:D
+        }
     }
 }
