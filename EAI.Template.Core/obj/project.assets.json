@@ -5554,11 +5554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akorani\\Source\\Workspaces\\Workspace\\IntegrationCommon\\EAITemplates\\CompletedTemplate\\EAI.Template\\EAI.Template.Core\\EAI.Template.Core.csproj",
+      "projectUniqueName": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.Core\\EAI.Template.Core.csproj",
       "projectName": "EAI.Template.Core",
-      "projectPath": "C:\\Users\\akorani\\Source\\Workspaces\\Workspace\\IntegrationCommon\\EAITemplates\\CompletedTemplate\\EAI.Template\\EAI.Template.Core\\EAI.Template.Core.csproj",
+      "projectPath": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.Core\\EAI.Template.Core.csproj",
       "packagesPath": "C:\\Users\\akorani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akorani\\Source\\Workspaces\\Workspace\\IntegrationCommon\\EAITemplates\\CompletedTemplate\\EAI.Template\\EAI.Template.Core\\obj\\",
+      "outputPath": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

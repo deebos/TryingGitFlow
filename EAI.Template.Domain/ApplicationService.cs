@@ -31,7 +31,7 @@ namespace EAI.Template.Domain
 
         public List<ApplicationsDTO> GetAll()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             string key = "GetAllApplications";          
 
             var applications = distributedCache.RetrieveFromCache <List<Applications>>(key);
@@ -49,6 +49,7 @@ namespace EAI.Template.Domain
 
         public UserWithToken Login(string userName, string Password)
         {
+            if (userName == null) throw new ArgumentNullException(nameof(userName));
             var user = _unitOfWork.GetRepository<Applications>().FirstOrDefault(x => x.UserName == userName, x => x.Scopes);
 
 
