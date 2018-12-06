@@ -43,5 +43,11 @@ namespace EAI.Template.Tests
             //Assert.PropertyChanged(_applicationService, "nameProperty", () => _applicationService.GetAll());
 
         }
+
+        [Fact]
+        public void GetAll_ReleaseBranch_ShouldMergeToMaster()
+        {
+            //taken from latest develop
+        }
     }
 }
