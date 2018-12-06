@@ -1,23 +1,19 @@
+using EAI.Template.API.Model;
+using EAI.Template.Domain;
 using System;
 using System.Collections.Generic;
-using AutoMapper;
-using EAI.Template.API.Model;
-using EAI.Template.Core.Auth;
-using EAI.Template.Data.Repository;
-using EAI.Template.Domain;
-using Microsoft.Extensions.Caching.Distributed;
 using Xunit;
 
 namespace EAI.Template.Tests
 {
     public class UnitTest1
     {
-        private readonly IApplicationService _applicationService;
+        private readonly IApplicationService _sut;
 
-        public UnitTest1() 
+        public UnitTest1()
         {
-           
         }
+
         //[Fact]
         //public void Test1()
         //{
@@ -27,21 +23,43 @@ namespace EAI.Template.Tests
         //}
 
         [Fact]
-        public void GetAll_WhenUsernameIsNull_ShouldThrowArgumentNullException()
+        public void GetAll_NormalCase_ShouldReturnListOfApplicationDto()
         {
             List<ApplicationsDTO> applications;
-             
-            applications = _applicationService.GetAll();
+
+            applications = _sut.GetAll();
+            Assert.IsType<List<ApplicationsDTO>>(applications);
 
             Assert.Equal(4, applications.Count);
-            Assert.Throws<ArgumentException>("ParamName",() => _applicationService.GetAll());
-            Assert.Throws<NotImplementedException>( () => _applicationService.GetAll());
-            var ex = Assert.Throws<ArgumentNullException>(() => _applicationService.Login("", ""));
+            Assert.Throws<ArgumentException>("ParamName", () => _sut.GetAll());
+            Assert.Throws<NotImplementedException>(() => _sut.GetAll());
+            var ex = Assert.Throws<ArgumentNullException>(() => _sut.Login("", ""));
             Assert.Equal("Name", ex.ParamName);
 
             //Assert.Raises<EventArgs>();
             //Assert.PropertyChanged(_applicationService, "nameProperty", () => _applicationService.GetAll());
+        }
 
+        [Fact]
+        public void Login_WhenUsernameIsNull_ShouldThrowArgumentNullException()
+        {
+            var password = "P@ssw0rd";
+            string username = null;
+
+            var ex = Assert.Throws<ArgumentNullException>(() => _sut.Login(username, password));
+            Assert.Equal("userName", ex.ParamName);
+        }
+
+        [Fact]
+        public void GetAll_TestFromBranchTwo_ShouldResultToMergeConflict()
+        {
+            //:D
+        }
+
+        [Fact]
+        public void GetAll_ReleaseBranch_ShouldMergeToMaster()
+        {
+            //taken from latest develop
         }
     }
 }
