@@ -61,5 +61,10 @@ namespace EAI.Template.Tests
         {
             //taken from latest develop
         }
+        [Fact]
+        public void GetAll_Release2_BugFix()
+        {
+            
+        }
     }
 }
