@@ -66,5 +66,11 @@ namespace EAI.Template.Tests
         {
             
         }
+
+        [Fact]
+        public void ThirdUser_AddingFeature_ToRepo()
+        {
+            //third user code
+        }
     }
 }
