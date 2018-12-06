@@ -55,5 +55,11 @@ namespace EAI.Template.Tests
         {
             //:D
         }
+
+        [Fact]
+        public void GetAll_ReleaseBranch_ShouldMergeToMaster()
+        {
+            //taken from latest develop
+        }
     }
 }
