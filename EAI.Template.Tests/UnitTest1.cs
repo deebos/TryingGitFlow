@@ -43,5 +43,11 @@ namespace EAI.Template.Tests
             //Assert.PropertyChanged(_applicationService, "nameProperty", () => _applicationService.GetAll());
 
         }
+
+        [Fact]
+        public void GetAll_TestFromBranchTwo_ShouldResultToMergeConflict()
+        {
+            //:D
+        }
     }
 }
