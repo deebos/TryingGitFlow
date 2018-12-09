@@ -14,6 +14,11 @@ namespace EAI.Template.Tests
         {
         }
 
+        [Fact]
+        public void unitOfWork_StateUnderTest_ExpectedBehavior()
+        {
+                
+        }
         //[Fact]
         //public void Test1()
         //{

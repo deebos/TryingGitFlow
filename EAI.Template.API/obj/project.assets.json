@@ -13005,11 +13005,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.API\\EAI.Template.API.csproj",
+      "projectUniqueName": "C:\\Users\\akorani\\Documents\\Islam\\TryingGitFlow\\EAI.Template.API\\EAI.Template.API.csproj",
       "projectName": "EAI.Template.API",
-      "projectPath": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.API\\EAI.Template.API.csproj",
+      "projectPath": "C:\\Users\\akorani\\Documents\\Islam\\TryingGitFlow\\EAI.Template.API\\EAI.Template.API.csproj",
       "packagesPath": "C:\\Users\\akorani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.API\\obj\\",
+      "outputPath": "C:\\Users\\akorani\\Documents\\Islam\\TryingGitFlow\\EAI.Template.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13028,8 +13028,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.Domain\\EAI.Template.Domain.csproj": {
-              "projectPath": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.Domain\\EAI.Template.Domain.csproj"
+            "C:\\Users\\akorani\\Documents\\Islam\\TryingGitFlow\\EAI.Template.Domain\\EAI.Template.Domain.csproj": {
+              "projectPath": "C:\\Users\\akorani\\Documents\\Islam\\TryingGitFlow\\EAI.Template.Domain\\EAI.Template.Domain.csproj"
             }
           }
         }

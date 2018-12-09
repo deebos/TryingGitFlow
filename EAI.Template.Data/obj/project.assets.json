@@ -3557,11 +3557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.Data\\EAI.Template.Data.csproj",
+      "projectUniqueName": "C:\\Users\\akorani\\Documents\\Islam\\TryingGitFlow\\EAI.Template.Data\\EAI.Template.Data.csproj",
       "projectName": "EAI.Template.Data",
-      "projectPath": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.Data\\EAI.Template.Data.csproj",
+      "projectPath": "C:\\Users\\akorani\\Documents\\Islam\\TryingGitFlow\\EAI.Template.Data\\EAI.Template.Data.csproj",
       "packagesPath": "C:\\Users\\akorani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akorani\\Documents\\Git Repos\\Cloned\\TryingGitFlow\\EAI.Template.Data\\obj\\",
+      "outputPath": "C:\\Users\\akorani\\Documents\\Islam\\TryingGitFlow\\EAI.Template.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
